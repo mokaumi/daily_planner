@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .time-block {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .hour {
+    width: 60px;
+    padding: 10px;
+    background: #ddd;
+    text-align: center;
+  }
+  
+  textarea {
+    flex: 1;
+    padding: 10px;
+    resize: none;
+  }
+  
+  .saveBtn {
+    width: 60px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .past { background-color: #d3d3d3; }
+  .present { background-color: #ff6961; }
+  .future { background-color: #77dd77; }
+  
